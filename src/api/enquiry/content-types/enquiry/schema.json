@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enquiries",
+  "info": {
+    "singularName": "enquiry",
+    "pluralName": "enquiries",
+    "displayName": "enquiries"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "date": {
+      "type": "date"
+    },
+    "message": {
+      "type": "richtext"
+    },
+    "room_type": {
+      "type": "string"
+    },
+    "persons": {
+      "type": "integer"
+    }
+  }
+}
