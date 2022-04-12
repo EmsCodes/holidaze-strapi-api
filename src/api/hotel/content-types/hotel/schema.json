@@ -4,8 +4,7 @@
   "info": {
     "singularName": "hotel",
     "pluralName": "hotels",
-    "displayName": "hotels",
-    "description": ""
+    "displayName": "Hotels"
   },
   "options": {
     "draftAndPublish": true
@@ -21,27 +20,22 @@
     "description": {
       "type": "richtext"
     },
-    "price_1": {
-      "type": "integer"
-    },
     "main_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "price_1": {
+      "type": "integer"
     },
     "price_2": {
       "type": "integer"
