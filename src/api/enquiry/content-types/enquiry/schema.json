@@ -4,7 +4,8 @@
   "info": {
     "singularName": "enquiry",
     "pluralName": "enquiries",
-    "displayName": "enquiries"
+    "displayName": "enquiries",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,7 @@
     "email": {
       "type": "email"
     },
-    "date": {
+    "date_from": {
       "type": "date"
     },
     "message": {
@@ -28,6 +29,9 @@
     },
     "persons": {
       "type": "integer"
+    },
+    "date_to": {
+      "type": "date"
     }
   }
 }
